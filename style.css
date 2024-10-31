@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ruge+Boogie&display=swap");
+
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  background-color: rgb(40, 38, 38);
+  width: 85%;
+  margin: auto;
+  font-size: 2rem;
+  border-radius: 1%;
+  h1 {
+    text-align: center;
+    font-family: "Lobster", cursive;
+    font-size: 6.5rem;
+  }
+  #span {
+    color: red;
+  }
+  /* h1 span olarak da isim verilebilir. */
+  #image {
+    width: 40%;
+    border-radius: 10%;
+    box-shadow: 3px 3px 200px red;
+    display: block;
+    margin: 0 auto;
+  }
+  #date {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .p1 {
+    text-align: justify;
+    padding: 0px 100px;
+  }
+  h2 {
+    font-family: "Lobster", cursive;
+    font-size: 30px;
+    color: red;
+  }
+  ul li {
+    line-height: 1.7;
+    /* list-style-position: inside ne işe yarar */
+  }
+}
+#footer {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px;
+}
+button {
+  border-radius: 8%;
+  font-size: 2.5rem;
+  width: 50uw;
+  padding: 16px;
+  color: white;
+  background-color: black;
+  border: 3px solid rgb(218, 164, 16);
+  text-decoration: none;
+}
+button:hover {
+  color: red;
+  background-color: rgb(57, 55, 55);
+}
